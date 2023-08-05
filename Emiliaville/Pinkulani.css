@@ -2,9 +2,28 @@ body {
     background: linear-gradient(90deg, rgba(240,174,202,1) 30%, rgba(127,103,242,1) 100%);
     min-height: 100vh;
 }
+hr {
+    border: none;
+    padding: 5px;
+    border-top: 3px double;
+    color: Black;
+    text-align: center;
+    height: 5px;
+} 
+hr:after {
+    content: "❦";
+}
+h1 {
+    margin: 20px;
+    color: rgb(255, 89, 0);
+    text-align: center;
+}
+h2 {
+   color: Red;
+}
 div {
-    color: rgb(197, 159, 87);
+    color: rgb(130, 18, 228);
 }
 a {
-    color: Green;
+    color: rgb(252, 5, 207);
 }
