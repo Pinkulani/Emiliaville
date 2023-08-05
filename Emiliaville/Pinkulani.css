@@ -11,7 +11,7 @@ hr {
     height: 5px;
 } 
 hr:after {
-    content: "❦";
+    content: "*";
 }
 h1 {
     margin: 20px;
