@@ -13,6 +13,25 @@ hr {
 hr:after {
     content: "*";
 }
+.menu {
+    background-color: rgb(255, 89, 0);
+    overflow: auto;
+    white-space: nowrap;
+    
+}
+.menu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+.menu a:hover {
+    background-color: rgb(194, 68, 0);
+}
+.menu a.active {
+    background-color: rgb(255, 179, 0);
+}
 h1 {
     margin: 20px;
     color: rgb(255, 89, 0);
@@ -21,9 +40,15 @@ h1 {
 h2 {
    color: Red;
 }
-div {
-    color: rgb(130, 18, 228);
-}
 a {
     color: rgb(252, 5, 207);
+}
+.text {
+    color: rgb(130, 18, 228);
+    background: rgb(255,237,148);
+    background: linear-gradient(90deg, rgba(255,237,148,1) 0%, rgba(255,197,83,1) 100%);      
+    font-size: 15px;
+}
+.important {
+    color: Red;
 }
