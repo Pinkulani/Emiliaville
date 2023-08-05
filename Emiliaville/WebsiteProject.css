@@ -1,0 +1,18 @@
+body {
+    background: linear-gradient(45deg, red, blue);
+    min-height: 100vh;
+}
+h1 {
+    margin: 20px;
+    color: Tomato;
+    text-align: center;
+}
+h2 {
+   color: Red;
+}
+div {
+    color: Orange;
+}
+a {
+    color: Green;
+}
