@@ -21,7 +21,8 @@ hr:after {
     content: "❦";
 }
 .menu {
-    background-color: rgb(255, 89, 0);
+    background: rgb(255,212,0);
+    background: linear-gradient(270deg, rgba(255,212,0,1) 0%, rgba(255,89,0,1) 100%); 
     display: flex;
     flex-direction: row;
 }
@@ -57,6 +58,9 @@ p {
 }
 ul {
     padding: 0px 5px 0px 5px;
+}
+.center {
+    text-align: center;
 }
 .text {
     color: rgb(130, 18, 228);
