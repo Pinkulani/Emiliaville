@@ -1,9 +1,16 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
 body {
     background: linear-gradient(90deg, rgba(240,174,202,1) 30%, rgba(127,103,242,1) 100%);
     min-height: 100vh;
 }
 hr {
     border: none;
+    overflow: visible;
     padding: 5px;
     border-top: 3px double;
     color: Black;
@@ -11,16 +18,14 @@ hr {
     height: 5px;
 } 
 hr:after {
-    content: "*";
+    content: "❦";
 }
 .menu {
     background-color: rgb(255, 89, 0);
-    overflow: auto;
-    white-space: nowrap;
-    
+    display: flex;
+    flex-direction: row;
 }
 .menu a {
-    display: inline-block;
     color: white;
     text-align: center;
     padding: 15px;
@@ -43,8 +48,14 @@ h2 {
 a {
     color: rgb(252, 5, 207);
 }
+p {
+    padding: 5px 0px 5px 0px;
+}
 .text {
     color: rgb(130, 18, 228);
+    margin: 15px;
+    padding: 15px;
+    border-radius: 25px;
     background: rgb(255,237,148);
     background: linear-gradient(90deg, rgba(255,237,148,1) 0%, rgba(255,197,83,1) 100%);      
     font-size: 15px;
