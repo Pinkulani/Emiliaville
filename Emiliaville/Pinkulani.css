@@ -64,8 +64,17 @@ p {
 ul {
     padding: 0px 5px 0px 5px;
 }
+.transparent {
+    opacity: 0.5;
+}
 .center {
     text-align: center;
+}
+.title {
+    text-align: center;
+    color: Red;
+    font-size: 40px;
+    padding: 20px;
 }
 .text {
     color: rgb(130, 18, 228);
