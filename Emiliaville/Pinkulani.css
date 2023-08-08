@@ -78,6 +78,15 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+button {
+    color: Red;
+}
+.left {
+    margin-left: auto;
+}
+.right {
+    margin-right: auto;
+}
 .transparent {
     opacity: 0.5;
 }
