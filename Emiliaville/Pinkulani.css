@@ -64,6 +64,12 @@ p {
 ul {
     padding: 0px 5px 0px 5px;
 }
+table, td, th {
+    border: 1px solid Black;
+    padding: 5px;
+    border-collapse: collapse;
+    text-align: center;
+}
 .transparent {
     opacity: 0.5;
 }
