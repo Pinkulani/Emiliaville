@@ -89,6 +89,18 @@ img {
     font-size: 40px;
     padding: 20px;
 }
+.date {
+    background: rgb(255,212,0);
+    background: linear-gradient(0deg, rgba(255,212,0,1) 0%, rgba(255,0,63,1) 50%);
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    min-width: 100px;
+    max-width: 300px;
+    margin: 0px 200px 0px 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .text {
     color: rgb(130, 18, 228);
     margin: 15px;
