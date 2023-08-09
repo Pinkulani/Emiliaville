@@ -1,0 +1,13 @@
+* {
+    Padding: 0px;
+    Margin: 0;
+    Box-Sizing: Border-Box;
+    Font-Family: Sans-Serif;
+}
+H1, H2, H3, H4, H5, H6 {
+    Text-Align: Center;
+    Color: Red;
+}
+Button {
+    Color: Red;
+}
