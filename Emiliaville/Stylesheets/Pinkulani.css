@@ -1,13 +1,27 @@
 * {
-    Padding: 0px;
-    Margin: 0;
-    Box-Sizing: Border-Box;
-    Font-Family: Sans-Serif;
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
-H1, H2, H3, H4, H5, H6 {
-    Text-Align: Center;
-    Color: Red;
+body {
+    background: linear-gradient(90deg, rgba(240,174,202,1) 30%, rgba(127,103,242,1) 100%);
+    min-height: 100vh;
 }
-Button {
-    Color: Red;
+footer {
+    background: linear-gradient(270deg, rgb(235, 7, 102) 30%, rgb(161, 242, 103) 100%);
+    height: 100px;
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    color: Red;
+}
+button {
+    color: Red;
+}
+a {
+    text-decoration: None;
 }
