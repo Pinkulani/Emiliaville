@@ -4,15 +4,16 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-body {
-    background: linear-gradient(230deg, rgba(255,184,50,1) 0%, rgba(252,252,172,1) 50%);
+body { /* Default Colors */
+    background: rgb(251, 221, 134);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    color: #e51471;
     transition: 0.5s linear;
 }
 footer {
-    background: linear-gradient(90deg, rgba(255,150,50,1) 0%, rgba(252,172,172,1) 100%); 
+    background: linear-gradient(90deg, rgba(255,150,50,1) 0%, rgba(252,172,172,1) 100%);
     height: 100px;
     margin-top: auto;
     border-radius: 25px 25px 0px 0px;
@@ -20,9 +21,6 @@ footer {
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
     color: Red;
-}
-p {
-    color: #e51471;
 }
 button {
     color: Red;
@@ -33,13 +31,10 @@ a {
 a:hover {
     color: Orange;
 }
-.darkmode {
-    background: Black;
+.theme { /* Changed Website Theme */
+    background: rgb(50, 64, 87);
     color: White;
-}
-.whitemode {
-    background: White;
-    color: Black;
+    transition: 0.5s linear;
 }
 .menu {
     border: 1px solid Black;
