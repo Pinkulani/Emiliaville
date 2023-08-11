@@ -9,6 +9,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    transition: 0.5s linear;
 }
 footer {
     background: linear-gradient(90deg, rgba(255,150,50,1) 0%, rgba(252,172,172,1) 100%); 
@@ -28,4 +29,19 @@ button {
 }
 a {
     text-decoration: None;
+}
+a:hover {
+    color: Orange;
+}
+.darkmode {
+    background: Black;
+    color: White;
+}
+.whitemode {
+    background: White;
+    color: Black;
+}
+.menu {
+    border: 1px solid Black;
+    background-color: White;
 }
