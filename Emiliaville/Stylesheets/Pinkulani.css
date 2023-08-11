@@ -30,6 +30,13 @@ button {
     padding: 5px;
     color: Red;
 }
+table, td, th {
+    border: 1px solid Black;
+    padding: 5px;
+    margin: 20px;
+    border-collapse: collapse;
+    text-align: center;
+}
 a {
     text-decoration: None;
 }
