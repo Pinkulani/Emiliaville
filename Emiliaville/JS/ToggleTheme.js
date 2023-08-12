@@ -18,6 +18,11 @@ function ToggleTheme() {
         element.classList.toggle("tabletheme")
     });
 
+    let link = document.querySelectorAll("a")
+    link.forEach((element) => {
+        element.classList.toggle("linktheme")
+    });
+
     //let p = document.querySelectorAll("p");
     //p.forEach((element) => {
     //    element.classList.toggle("divtheme");
