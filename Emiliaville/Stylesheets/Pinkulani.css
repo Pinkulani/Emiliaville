@@ -60,6 +60,10 @@ a:hover {
     transition: 0.3s linear;
     color: Orange;
 }
+.linktheme {
+    transition: 0.5s linear;
+    color: Red;
+}
 p {
     margin: 15px;
 }
