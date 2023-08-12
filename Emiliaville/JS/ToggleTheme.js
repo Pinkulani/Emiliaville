@@ -6,12 +6,11 @@ function ToggleTheme() {
         borders.forEach((element) => {
             element.style.backgroundColor = "Black";
         });
-        Counter = !Counter;
     } else {
-            borders.forEach((element) => {
-                element.style.backgroundColor = "White";
-            });
-            Counter = !Counter;
+        borders.forEach((element) => {
+            element.style.backgroundColor = "White";
+        });
+            
     }
 
     let p = document.querySelectorAll("p");
@@ -29,4 +28,6 @@ function ToggleTheme() {
     
     let footer = document.querySelector("footer");
     footer.classList.toggle("theme");
+    
+    Counter = !Counter;
 }
