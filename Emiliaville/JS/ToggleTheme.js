@@ -4,7 +4,7 @@ function ToggleTheme() {
     let borders = document.querySelectorAll(".border"); // Don't forget the . (Justin)
     if (Counter == true) {
         borders.forEach((element) => {
-            element.style.backgroundColor = "Black";
+            element.style.backgroundColor = "rgb(87, 65, 230)";
         });
     } else {
         borders.forEach((element) => {
@@ -18,21 +18,21 @@ function ToggleTheme() {
         element.classList.toggle("tabletheme")
     });
 
-    let p = document.querySelectorAll("p");
-    p.forEach((element) => {
-        element.classList.toggle("divtheme");
-    });
+    //let p = document.querySelectorAll("p");
+    //p.forEach((element) => {
+    //    element.classList.toggle("divtheme");
+    //});
     
-    let div = document.querySelectorAll("body div");
-    div.forEach((element) => {
-        element.classList.toggle("divtheme");
-    });      
+    //let div = document.querySelectorAll("body div");
+    //div.forEach((element) => {
+    //    element.classList.toggle("divtheme");
+    //});      
     
     let body = document.body;
-    body.classList.toggle("theme");
+    body.classList.toggle("bodytheme");
     
     let footer = document.querySelector("footer");
-    footer.classList.toggle("theme");
+    footer.classList.toggle("footertheme");
     
     Counter = !Counter;
 }
