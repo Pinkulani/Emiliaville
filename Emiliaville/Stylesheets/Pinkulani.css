@@ -18,6 +18,9 @@ footer {
     margin-top: auto;
     border-radius: 25px 25px 0px 0px;
 }
+.footertheme {
+    background: White;
+}
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
     color: Red;
@@ -56,14 +59,10 @@ a:hover {
 p {
     margin: 15px;
 }
-.theme { /* Changed Website Theme */
+.bodytheme { /* Changed Website Theme */
     background: rgb(50, 64, 87);
     color: White;
     transition: 0.5s linear;
-}
-.divtheme { /* Div Theme Change */
-    background: Black;
-    background-color: Black;
 }
 .border {
     border: 1px solid Black;
