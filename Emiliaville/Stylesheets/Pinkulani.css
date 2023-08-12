@@ -19,7 +19,7 @@ footer {
     border-radius: 25px 25px 0px 0px;
 }
 .footertheme {
-    background: White;
+    background: rgb(34, 0, 254);
 }
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
@@ -46,14 +46,18 @@ table, td, th {
     margin: 15px;
     border-collapse: collapse;
     text-align: center;
+    transition: 0.5s linear;
 }
 .tabletheme {
     border: 1px solid White;
+    transition: 0.5s linear;
 }
 a {
+    transition: 0.2s linear;
     text-decoration: None;
 }
 a:hover {
+    transition: 0.3s linear;
     color: Orange;
 }
 p {
@@ -61,7 +65,7 @@ p {
 }
 .bodytheme { /* Changed Website Theme */
     background: rgb(50, 64, 87);
-    color: White;
+    color: rgb(255, 162, 1);
     transition: 0.5s linear;
 }
 .border {
