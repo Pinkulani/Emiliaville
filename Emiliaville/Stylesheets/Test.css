@@ -1,6 +1,6 @@
-* {
-    font-size: 50px;
-}
-p {
-    font-size: 200px;
+div {
+    color: Brown;
+    transition: 1s linear;
+    font-size: 20px;
+    background: Aqua;
 }
