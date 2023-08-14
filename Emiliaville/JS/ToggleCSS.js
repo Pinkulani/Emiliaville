@@ -5,7 +5,11 @@ function ToggleCSS () {
     
     link = document.createElement("link");
     link.rel = "stylesheet";
-    link.href = "https://pinkulani.com/Stylesheets/Test.css";
+    if (Counter == true) {
+        link.href = "https://pinkulani.com/Stylesheets/Test.css";
+    } else {
+        link.href = "https://pinkulani.com/Stylesheets/Test2.css";
+    }
     
     head.appendChild(link);
     
