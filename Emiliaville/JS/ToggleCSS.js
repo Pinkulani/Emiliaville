@@ -1,17 +1,11 @@
-let Counter = true;
+// Select Changeable Link Element
+let Stylesheet = document.querySelector("#Stylesheet");
 
-function ToggleCSS () {
-    let head = document.querySelector("head");
-    
-    link = document.createElement("link");
-    link.rel = "stylesheet";
-    if (Counter == true) {
-        link.href = "https://pinkulani.com/Stylesheets/Test.css";
+function ToggleCSS() {
+    // Set Stylesheet to opposite of default/current
+    if (Stylesheet.getAttribute("href") == "https://www.pinkulani.com/Stylesheets/Test") {
+        Stylesheet.setAttribute("href", "https://www.pinkulani.com/Stylesheets/Test2");
     } else {
-        link.href = "https://pinkulani.com/Stylesheets/Test2.css";
+        Stylesheet.setAttribute("href", "https://www.pinkulani.com/Stylesheets/Test")
     }
-    
-    head.appendChild(link);
-    
-    Counter = !Counter;
 }
