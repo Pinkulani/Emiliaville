@@ -13,6 +13,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 button {
+    cursor: pointer;
     position: fixed;
     top: 0;
     right: 0;
@@ -31,40 +32,37 @@ button {
     transition: 0.5s linear;
 }
 /* Splitscreen */
-.left {
-    width: 20%;
-}
 .right {
     margin-left: 250px;
+    padding-left: 50px;
 }
 /* Navigation Menu */
-.menu {
+.left {
     height: 100%;
     position: fixed;
     width: 250px;
     background: rgba(255, 255, 255, 0.1);
-    border-radius: 30px;
+    border-radius: 0px 30px 30px 0px;
 }
 /* Title Class in Menu */
-.menutitle {
+.lefttitle {
     margin-bottom: 50px;
     font-size: 40px;
     text-align: center;
 }
 /* P used for text in Menu */
-.menu p {
+.left p {
     text-align: center;
 }
 /* For Links in Menu Class */
-.menulink {
+.leftlink {
     padding: 0px 0px 0px 10px;
 }
 /* Bottom Placement in Menu */
-.menubottom {
+.leftbottom {
     position: absolute;
     bottom: 0;
     width: 100%;
-    border-radius: 30px;
     padding: 5px 10px 5px 10px;
     text-align: center;
 }
