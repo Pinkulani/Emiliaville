@@ -9,14 +9,14 @@
 body {
     min-height: 100vh;
 }
-h1 h2 h3 h4 h5 h6 {
+h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 button {
     position: fixed;
     top: 0;
     right: 0;
-    margin: 15px;
+    margin: 10px;
     background: White;
     border-radius: 20px;
     border-style: solid;
@@ -26,48 +26,50 @@ a {
     text-decoration: None;
 }
 .left {
+    left: 0;
     float: left;
-    width: 20%;
+    width: 25%;
 }
 .right {
+    right: 0;
     float: right;
-    width: 80%;
+    width: 75%;
 }
 /* Navigation Menu */
 .menu {
     height: 100%;
     position: fixed;
-    width: 200px;
+    width: 250px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 30px;
 }
+/* Animation for Links */
 .menu a {
-    
     transition: 1s linear;
 }
 .menu a:hover {
-    color: Yellow;
     transition: 1s linear;
 }
+/* Bottom Placement in Menu */
 .menubottom {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: Red;
     border-radius: 30px;
     padding: 5px 10px 5px 10px;
     text-align: center;
 }
+/* P used for text in Menu */
 .menu p {
-    color: Brown;
     text-align: center;
 }
+/* For Links in Menu Class */
 .menulink {
     padding: 0px 0px 0px 10px;
 }
+/* Title Class in Menu */
 .menutitle {
-    padding: 0px;
     margin-bottom: 50px;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
 }
