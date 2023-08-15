@@ -2,3 +2,15 @@
 body {
     background: rgb(237, 9, 47);
 }
+/* Navigation Menu Text Color */
+.menu p {
+    color: Brown;
+}
+/* Menu Link Color (& Title) */
+.menu a {
+    color: Aquamarine;
+}
+/* Menu Link Hover Color */
+.menu a:hover {
+    color: rgb(113, 25, 221);
+}
