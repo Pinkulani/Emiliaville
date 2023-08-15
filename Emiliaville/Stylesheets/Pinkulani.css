@@ -53,6 +53,7 @@ a:hover {
 .right {
     margin-left: 250px;
     padding-left: 50px;
+    padding-right: 50px;
     padding-bottom: 50px;
 }
 .left {
