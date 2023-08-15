@@ -6,26 +6,14 @@ body {
 p {
     color: rgb(205, 158, 165);
 }
+/* Link Color (& Title) */
 a {
     text-decoration: None;
     transition: 2s linear;
-    color: rgb(66, 40, 120);
-}
-a:hover {
-    transition: 0.5s linear;
-    color: rgb(20, 20, 40);
-}
-/* Menu Link Color (& Title) */
-.menu a {
     color: rgb(215, 105, 232);
 }
-/* Menu Link Hover Color */
-.menu a:hover {
-    color: rgb(119, 50, 119);
-}
-.menubottom {
-    background-color: rgb(60, 35, 120);
-}
-.menuactive {
+/* Link Hover Color (& Title) */
+a:hover {
+    transition: 0.5s linear;
     color: rgb(119, 50, 119);
 }
