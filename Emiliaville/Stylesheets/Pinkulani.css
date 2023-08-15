@@ -22,9 +22,15 @@ button {
     border-style: solid;
     padding: 5px 10px 5px 10px;
 }
-a {
+/* Links */
+.a {
     text-decoration: None;
+    transition: 2s linear;
 }
+.a:hover {
+    transition: 0.5s linear;
+}
+/* Splitscreen */
 .left {
     left: 0;
     float: left;
@@ -43,20 +49,10 @@ a {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 30px;
 }
-/* Animation for Links */
-.menu a {
-    transition: 1s linear;
-}
-.menu a:hover {
-    transition: 0.5s linear;
-}
-/* Bottom Placement in Menu */
-.menubottom {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    border-radius: 30px;
-    padding: 5px 10px 5px 10px;
+/* Title Class in Menu */
+.menutitle {
+    margin-bottom: 50px;
+    font-size: 40px;
     text-align: center;
 }
 /* P used for text in Menu */
@@ -67,9 +63,12 @@ a {
 .menulink {
     padding: 0px 0px 0px 10px;
 }
-/* Title Class in Menu */
-.menutitle {
-    margin-bottom: 50px;
-    font-size: 40px;
+/* Bottom Placement in Menu */
+.menubottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-radius: 30px;
+    padding: 5px 10px 5px 10px;
     text-align: center;
 }
