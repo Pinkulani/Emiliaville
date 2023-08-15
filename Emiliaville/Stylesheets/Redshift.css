@@ -2,9 +2,18 @@
 body {
     background: rgb(160, 45, 70);
 }
-/* Navigation Menu Text Color */
-.menu p {
+/* Text Color */
+p {
     color: rgb(205, 158, 165);
+}
+a {
+    text-decoration: None;
+    transition: 2s linear;
+    color: rgb(66, 40, 120);
+}
+a:hover {
+    transition: 0.5s linear;
+    color: rgb(20, 20, 40);
 }
 /* Menu Link Color (& Title) */
 .menu a {
@@ -16,4 +25,7 @@ body {
 }
 .menubottom {
     background-color: rgb(60, 35, 120);
+}
+.menuactive {
+    color: rgb(119, 50, 119);
 }
