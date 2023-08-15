@@ -27,7 +27,7 @@ h1 h2 h3 h4 h5 h6 {
     background: rgb(237, 49, 237);
 }
 .menu a {
-    margin: 0px 15px 0px 15px;
+    margin: 0px 1px 0px 10px;
     position: relative;
     text-decoration: None;
 }
@@ -43,8 +43,23 @@ h1 h2 h3 h4 h5 h6 {
 .menu ul li a {
     display: flex;
 }
-.bottom {
+.menubottom {
     position: absolute;
     bottom: 0;
     width: 100%;
+    background-color: Red;
+}
+.emilia {
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+button {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 15px;
+    background: White;
+    border-radius: 20px;
+    border-style: solid;
+    padding: 5px 10px 5px 10px;
 }
