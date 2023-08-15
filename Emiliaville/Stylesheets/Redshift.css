@@ -6,6 +6,12 @@ body {
 p {
     color: rgb(205, 158, 165);
 }
+.important {
+    color: Red;
+}
+.highlight {
+    color: rgb(107, 2, 117);
+}
 /* Link Color (& Title) */
 a {
     text-decoration: None;
@@ -16,4 +22,8 @@ a {
 a:hover {
     transition: 0.5s linear;
     color: rgb(119, 50, 119);
+}
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(206, 32, 148); 
 }
