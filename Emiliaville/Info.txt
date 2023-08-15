@@ -1,2 +1,0 @@
-Every single page relies on the Stylesheet, Icon and Root Folder.
-All goes from here.
