@@ -27,3 +27,8 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
     color: rgb(206, 32, 148); 
 }
+/* Table Border and Text Color */
+table, td, th {
+    border: 1px solid Black;
+    color: Pink;
+}
