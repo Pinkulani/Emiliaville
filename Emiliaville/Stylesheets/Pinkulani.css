@@ -12,11 +12,19 @@ body {
 h1 {
     font-size: 50px;
     text-align: center;
+    padding-top: 20px;
+}
+/* Table */
+table, td, th {
+    padding: 5px;
+    border-collapse: collapse;
+    text-align: center;
 }
 /* For Text */
 .center {
     text-align: center;
 }
+/* Images */
 img {
     border-radius: 20px;
     padding: 30px;
@@ -26,10 +34,12 @@ img {
     margin-right: auto;
     transition: 0.5s linear;
 }
+/* Increase size on Hover */
 img:hover {
     width: 80%;
     transition: 1s linear;
 }
+/* Button stays in Corner */
 button {
     cursor: pointer;
     position: fixed;
@@ -54,7 +64,7 @@ a:hover {
     margin-left: 250px;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 .left {
     height: 100%;
@@ -65,13 +75,17 @@ a:hover {
 }
 /* Title Class in Menu */
 .lefttitle {
-    margin-bottom: 50px;
+    padding-bottom: 50px;
     font-size: 40px;
     text-align: center;
 }
 /* P used for text in Menu */
 .left p {
     text-align: center;
+}
+/* For Description */
+.leftdesc {
+    padding-bottom: 50px;
 }
 /* For Links in Menu */
 .leftlink {
