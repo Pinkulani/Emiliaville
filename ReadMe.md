@@ -15,19 +15,20 @@
 </p>
 
 <p>
-  <h3>Team</h3>
-  Page about who helped with any part of this Website.
+  <h3>Social</h3>
+  Ways to connect to me.
 </p>
 
 <p>
-  <h3>Links</h3>
-  Linked things that are cool to check out.
+  <h3>Archive</h3>
+  This is basically my homework folder where I write down stuff that's useful or I just want to write about.
 </p>
 
 <p>
-  <h3>Inventory</h3>
-  This is basically my archive of Documents where I write down stuff that's useful or I just want to write about.
+  <h3>About</h3>
+  Here is a small page for Privacy.
 </p>
+
 
 <p>
   <h3>Donate Button</h3>
@@ -36,8 +37,6 @@
 
 <h2 align="center"> Requirements </h2> <br>
 <p>
-  The <b> .htacess file </b>  is important for the Website to remove the .html ending for every adress.
-  Nothing will work without this file!
-  And accesing the sites locally is only possible by manually going through each one.
+  The <b> .htaccess file </b>  is important for the Website to remove the .html ending for every adress.
 </p>
 
