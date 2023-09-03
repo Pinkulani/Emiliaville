@@ -8,17 +8,26 @@
 }
 body {
     min-height: 100vh;
+    background: rgb(160, 45, 70);
 }
 h1 {
     font-size: 50px;
     text-align: center;
     padding-top: 20px;
 }
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(206, 32, 148); 
+}
+p {
+    color: rgb(205, 158, 165);
+}
 /* Table */
 table, td, th {
     padding: 5px;
     border-collapse: collapse;
     text-align: center;
+    border: 1px solid Black;
+    color: Pink;
 }
 /* For Text */
 .center {
@@ -49,15 +58,21 @@ button {
     background: White;
     border-radius: 20px;
     border-style: solid;
+    border-color: White;
     padding: 5px 10px 5px 10px;
+}
+button:active {
+    border-color: Black;
 }
 /* Links */
 a {
     text-decoration: None;
-    transition: 2s linear;
+    transition: 3s linear;
+    color: rgb(215, 105, 232);
 }
 a:hover {
     transition: 0.5s linear;
+    color: rgb(119, 50, 119);
 }
 /* Splitscreen */
 .right {
@@ -98,4 +113,10 @@ a:hover {
     width: 100%;
     padding: 5px 10px 5px 10px;
     text-align: center;
+}
+.important {
+    color: Red;
+}
+.highlight {
+    color: rgb(107, 2, 117);
 }
