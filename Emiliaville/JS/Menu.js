@@ -1,5 +1,6 @@
-//const Links ["https://www.pinkulani.com", "https://www.pinkulani.com/Social"];
+const Links = ["https://www.pinkulani.com", "https://www.pinkulani.com/Social", "https://www.pinkulani.com/Archive", "https://www.pinkulani.com/About", "https://ko-fi.com/pinkulani"];
 const LinkNames = ["Home", "Social", "Archive", "About", "Donate"];
+
 // Total number of links
 const Lenght = LinkNames.length
 
@@ -16,12 +17,13 @@ function Menu() {
     Navigation.append(Title);
 
     // Links
+    // Create Link then new line
     var X = 0
     while (X < Lenght) {
         console.log(LinkNames[X])
         const Link = document.createElement("a");
         const Break = document.createElement("br");
-        Link.setAttribute("href", "https://www.pinkulani.com");
+        Link.setAttribute("href", Links[X]);
         Link.innerHTML = LinkNames[X];
         document.body.appendChild(Link);
         Navigation.append(Link);
