@@ -1,5 +1,5 @@
 const Links = ["https://www.pinkulani.com", "https://www.pinkulani.com/Social", "https://www.pinkulani.com/Archive", "https://www.pinkulani.com/About", "https://ko-fi.com/pinkulani"];
-const LinkNames = ["Home", "Social", "Archive", "About", "Donate"];
+const LinkNames = ["➜ Home", "➜ Social", "➜ Archive", "➜ About", "➜ Donate"];
 
 // Total number of links
 const Lenght = LinkNames.length
@@ -40,4 +40,8 @@ function Menu() {
     Copyright.innerText = "© Pinkulani 2023-2023";
     document.body.appendChild(Copyright);
     Navigation.append(Copyright);
+}
+
+function Layout() {
+    Menu();
 }
