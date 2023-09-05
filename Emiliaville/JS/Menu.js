@@ -29,6 +29,9 @@ function Menu() {
         Navigation.append(Link);
         document.body.appendChild(Break);
         Navigation.append(Break);
+        Link.setAttribute("id", "Link")
+        var LinkClass = document.getElementById("Link");
+        LinkClass.classList.add("leftlink")
         X++
     }
     
