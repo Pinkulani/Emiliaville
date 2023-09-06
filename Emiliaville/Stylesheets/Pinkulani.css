@@ -8,7 +8,7 @@
 }
 body {
     min-height: 100vh;
-    background: rgb(160, 45, 70);
+    background: rgb(43, 39, 53);
 }
 h1 {
     font-size: 50px;
@@ -16,17 +16,17 @@ h1 {
     padding-top: 20px;
 }
 h1, h2, h3, h4, h5, h6 {
-    color: rgb(206, 32, 148); 
+    color: rgb(231, 168, 208); 
 }
 p {
-    color: rgb(205, 158, 165);
+    color: rgb(255, 255, 255);
 }
 /* Table */
 table, td, th {
     padding: 5px;
     border-collapse: collapse;
     text-align: center;
-    border: 1px solid Black;
+    border: 1px solid rgb(255, 255, 255);
     color: Pink;
 }
 /* For Text */
