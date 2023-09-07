@@ -1,0 +1,36 @@
+/* Stylesheet used for Layout of Website */
+/* Layout declaration */
+#layout {
+    clear: both;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+#menutitle {
+    font-size: 64px;
+}
+#menu {
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+/* Distance between Links */
+#menu a {
+    padding: 0px 5px 0px 5px;
+}
+/* Push Content away from top and center */
+#content {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0px 0px 0px;
+}
+/* Push away from Content */
+#footer {
+    padding: 10px 0px 0px 0px;
+}
+@media (min-width: 500px) {
+    #content, #layout {
+    	width: 1000px;
+        max-width: 1000px;
+    }
+}
