@@ -1,3 +1,5 @@
+Line = document.createElement("hr");
+
 // Adding the Menu Stylesheet
 function Stylesheet() {
     Style = document.createElement("link");
@@ -6,42 +8,51 @@ function Stylesheet() {
     document.head.appendChild(Style);
 }
 
+// Create Header
+function Header() {
+    Header = document.createElement("header");
+    Header.setAttribute("id", "layout");
+    document.body.appendChild(Header);
+}
+
+// Create Menu
 function Menu() {
-    const Links = ["https://www.pinkulani.com", "https://www.pinkulani.com/Social", "https://www.pinkulani.com/Archive", "https://www.pinkulani.com/About", "https://ko-fi.com/pinkulani"];
-    const LinkNames = ["➜ Home", "➜ Social", "➜ Archive", "➜ About", "➜ Donate"];
+    Menu = document.createElement("div");
+    Menu.setAttribute("id", "menu");
+    Header.appendChild(Menu);
+}
 
-    // Total number of links
-    const Lenght = LinkNames.length
+// Create Title
+function Title() {
+    Title = document.createElement("h1");
+    Title.setAttribute("id", "menutitle");
+    Title.innerHTML = "Pinkulani";
+    Menu.appendChild(Title);
+}
 
-    // Navigation
-    const Navigation = document.createElement("div");
-    document.body.appendChild(Navigation)
-    Navigation.setAttribute("id", "Navigation");
+// Create Links
+function Links() {
+    Navigation = document.createElement("nav");
+    Menu.appendChild(Navigation);
     
-    // Title
-    const Title = document.createElement("h1");
-    Title.innerText = "Pinkulani";
-    document.body.appendChild(Title);
-    Navigation.append(Title);
+    const URLs = ["https://www.pinkulani.com", "https://www.pinkulani.com/Social", "https://www.pinkulani.com/Archive", "https://www.pinkulani.com/About", "https://ko-fi.com/pinkulani"];
+    const Links = ["Home", "Social", "Archive", "About", "Donate"];
+    const Lenght = Links.length
 
-    // Links
-    // Create Link then new line
-    var X = 0
+    // Get total number of Links and place in Menu
+    let X = 0;
     while (X < Lenght) {
-        console.log(LinkNames[X])
         const Link = document.createElement("a");
-        const Break = document.createElement("br");
-        Link.setAttribute("href", Links[X]);
-        Link.innerHTML = LinkNames[X];
-        document.body.appendChild(Link);
+        Link.setAttribute("href", URLs[X]);
+        Link.innerHTML = Links[X];
         Navigation.append(Link);
-        document.body.appendChild(Break);
-        Navigation.append(Break);
-        Link.setAttribute("id", "Link")
-        var LinkClass = document.getElementById("Link");
-        LinkClass.classList.add("leftlink")
-        X++
+        X++;
     }
+
+    Menu.appendChild(Line);
+}
+
+function Menuu() {
     
     // Copyright
     const Copyright = document.createElement("p");
@@ -51,8 +62,11 @@ function Menu() {
 }
 
 function Layout() {
-    //Menu();
     Stylesheet();
+    Header();
+    Menu();
+    Title();
+    Links();
 }
 
 // Load automatically
