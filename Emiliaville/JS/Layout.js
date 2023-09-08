@@ -49,16 +49,25 @@ function Links() {
         X++;
     }
 
-    Menu.appendChild(Line);
+    Header.appendChild(Line);
 }
 
-function Menuu() {
-    
-    // Copyright
-    const Copyright = document.createElement("p");
-    Copyright.innerText = "© Pinkulani 2023-2023";
-    document.body.appendChild(Copyright);
-    Navigation.append(Copyright);
+// Create Content Section
+function Main() {
+    Main = document.createElement("main");
+    Main.setAttribute("id", "content");
+    document.body.appendChild(Main);
+}
+
+// Append Footer to Main for proper alignment
+function Footer() {
+    Footer = document.createElement("footer");
+    Footer.setAttribute("id", "footer");
+    Lemon = document.createElement("p");
+    Lemon.innerText = "© Pinkulani 2023-2023";
+    Main.append(Footer);
+    Footer.appendChild(Line);
+    Footer.append(Lemon);
 }
 
 function Layout() {
@@ -67,6 +76,8 @@ function Layout() {
     Menu();
     Title();
     Links();
+    Main();
+    Footer();
 }
 
 // Load automatically
