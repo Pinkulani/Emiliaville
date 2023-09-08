@@ -1,11 +1,3 @@
-// Adding the Menu Stylesheet
-function Stylesheet() {
-    Style = document.createElement("link");
-    Style.rel = "stylesheet";
-    Style.href = "https://pinkulani.com/Stylesheets/Layout"
-    document.head.appendChild(Style);
-}
-
 // Create Header
 function Header() {
     Header = document.createElement("header");
@@ -56,6 +48,11 @@ function Main() {
     Main = document.createElement("main");
     Main.setAttribute("id", "content");
     document.body.appendChild(Main);
+
+    // Page Content
+    Page = document.createElement("div");
+    Page.setAttribute("id", "page");
+    Main.appendChild(Page);
 }
 
 // Append Footer to Main for proper alignment
@@ -74,7 +71,6 @@ function Footer() {
 }
 
 function Layout() {
-    Stylesheet();
     Header();
     Menu();
     Title();
