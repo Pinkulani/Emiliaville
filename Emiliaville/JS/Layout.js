@@ -1,10 +1,18 @@
-const Links = ["https://www.pinkulani.com", "https://www.pinkulani.com/Social", "https://www.pinkulani.com/Archive", "https://www.pinkulani.com/About", "https://ko-fi.com/pinkulani"];
-const LinkNames = ["➜ Home", "➜ Social", "➜ Archive", "➜ About", "➜ Donate"];
-
-// Total number of links
-const Lenght = LinkNames.length
+// Adding the Menu Stylesheet
+function Stylesheet() {
+    Style = document.createElement("link");
+    Style.rel = "stylesheet";
+    Style.href = "https://pinkulani.com/Stylesheets/Layout"
+    document.head.appendChild(Style);
+}
 
 function Menu() {
+    const Links = ["https://www.pinkulani.com", "https://www.pinkulani.com/Social", "https://www.pinkulani.com/Archive", "https://www.pinkulani.com/About", "https://ko-fi.com/pinkulani"];
+    const LinkNames = ["➜ Home", "➜ Social", "➜ Archive", "➜ About", "➜ Donate"];
+
+    // Total number of links
+    const Lenght = LinkNames.length
+
     // Navigation
     const Navigation = document.createElement("div");
     document.body.appendChild(Navigation)
@@ -43,5 +51,11 @@ function Menu() {
 }
 
 function Layout() {
-    Menu();
+    //Menu();
+    Stylesheet();
 }
+
+// Load automatically
+window.addEventListener("load", function() {
+    Layout();
+});
