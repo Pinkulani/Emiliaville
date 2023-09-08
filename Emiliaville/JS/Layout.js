@@ -1,5 +1,3 @@
-Line = document.createElement("hr");
-
 // Adding the Menu Stylesheet
 function Stylesheet() {
     Style = document.createElement("link");
@@ -48,8 +46,9 @@ function Links() {
         Navigation.append(Link);
         X++;
     }
-
-    Header.appendChild(Line);
+    
+    LineTop = document.createElement("hr");  
+    Header.appendChild(LineTop);
 }
 
 // Create Content Section
@@ -63,10 +62,14 @@ function Main() {
 function Footer() {
     Footer = document.createElement("footer");
     Footer.setAttribute("id", "footer");
+    
+    LineBottom = document.createElement("hr");
+
     Lemon = document.createElement("p");
     Lemon.innerText = "© Pinkulani 2023-2023";
+    
     Main.append(Footer);
-    Footer.appendChild(Line);
+    Footer.appendChild(LineBottom);
     Footer.append(Lemon);
 }
 
