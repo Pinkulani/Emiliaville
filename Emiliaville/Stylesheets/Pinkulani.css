@@ -33,27 +33,14 @@ table, td, th {
 .center {
     text-align: center;
 }
-/* Images */
-img {
-    border-radius: 20px;
-    padding: 30px;
-    width: 30%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    transition: 0.5s linear;
-}
-/* Increase size on Hover */
-img:hover {
-    width: 80%;
-    transition: 1s linear;
+hr {
+    background-color: Orange;
+    border: 0;
+    height: 1px;
 }
 /* Button stays in Corner */
 button {
     cursor: pointer;
-    position: fixed;
-    top: 0;
-    right: 0;
     margin: 10px;
     background: White;
     border-radius: 20px;
@@ -67,52 +54,12 @@ button:active {
 /* Links */
 a {
     text-decoration: None;
-    transition: 3s linear;
+    transition: 2s linear;
     color: rgb(215, 105, 232);
 }
 a:hover {
-    transition: 0.5s linear;
+    transition: 0.3s linear;
     color: rgb(119, 50, 119);
-}
-/* Splitscreen */
-.right {
-    margin-left: 250px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 100px;
-}
-.left {
-    height: 100%;
-    position: fixed;
-    width: 250px;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 0px 30px 30px 0px;
-}
-/* Title Class in Menu */
-.lefttitle {
-    padding-bottom: 50px;
-    font-size: 40px;
-    text-align: center;
-}
-/* P used for text in Menu */
-.left p {
-    text-align: center;
-}
-/* For Description */
-.leftdesc {
-    padding-bottom: 50px;
-}
-/* For Links in Menu */
-.leftlink {
-    padding: 0px 0px 0px 10px;
-}
-/* Bottom Placement in Menu */
-.leftbottom {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    padding: 5px 10px 5px 10px;
-    text-align: center;
 }
 .important {
     color: Red;
