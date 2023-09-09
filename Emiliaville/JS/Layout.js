@@ -25,8 +25,8 @@ function Links() {
     Navigation = document.createElement("nav");
     Menu.appendChild(Navigation);
     
-    const URLs = ["https://www.pinkulani.com", "https://www.pinkulani.com/Social", "https://www.pinkulani.com/Archive", "https://www.pinkulani.com/About", "https://ko-fi.com/pinkulani"];
-    const Links = ["Home", "Social", "Archive", "About", "Donate"];
+    const URLs = ["https://www.pinkulani.com", "https://www.pinkulani.com/Social", "https://www.pinkulani.com/Archive", "https://ko-fi.com/pinkulani"];
+    const Links = ["Home", "Social", "Archive", "Donate"];
     const Lenght = Links.length
 
     // Get total number of Links and place in Menu
