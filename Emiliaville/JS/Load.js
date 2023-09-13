@@ -17,6 +17,27 @@ function Load(Page) {
             URL = "https://www.pinkulani.com/Content/Archive"
             break;
 
+        // Archive Topics
+        case "Computer Science":
+            URL = "https://www.pinkulani.com/Content/Computer Science"
+            break;
+        
+        case "Mathematics":
+            URL = "https://www.pinkulani.com/Content/Mathematics"
+            break;
+
+        case "Writing":
+            URL = "https://www.pinkulani.com/Content/Writing"
+            break;
+
+        case "Personal Care":
+            URL = "https://www.pinkulani.com/Content/Personal Care"
+            break;
+        
+        case "Random":
+            URL = "https://www.pinkulani.com/Content/Random"
+            break;
+
         default:
             console.log("Default / Error");
             break;
