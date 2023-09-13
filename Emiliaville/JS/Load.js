@@ -4,6 +4,11 @@ let URL = "Hewwo";
 // Get Content URL from Storage
 function Load(Page) {
     switch (Page) {
+        // Developer Page
+        case "Dev":
+            URL = "https://www.pinkulani.com/Content/Dev"
+            break;
+
         // Navigation Content
         case "Home":
             URL = "https://www.pinkulani.com/Content/Home"
