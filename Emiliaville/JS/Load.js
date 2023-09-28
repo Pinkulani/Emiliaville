@@ -18,6 +18,10 @@ function Load(Page) {
             URL = "https://www.pinkulani.com/Content/Social"
             break;
         
+        case "Tools":
+            URL = "https://www.pinkulani.com/Content/Tools"
+            break;
+
         case "Archive":
             URL = "https://www.pinkulani.com/Content/Archive"
             break;
