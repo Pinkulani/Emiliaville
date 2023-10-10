@@ -5,7 +5,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif; 
+    font-family: "Poppins", sans-serif;
 }
 ::selection {
     background: rgb(86, 7, 232);
@@ -24,7 +24,7 @@ h2 {
     text-align: center;
 }
 h1, h2, h3, h4, h5, h6 {
-    color: rgb(231, 168, 208); 
+    color: rgb(231, 168, 208);
 }
 p {
     color: rgb(255, 255, 255);
@@ -74,4 +74,40 @@ a:hover {
 }
 .highlight {
     color: rgb(107, 2, 117);
+}
+/* Style used for Layout of Website */
+#layout {
+    clear: both;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+#menutitle {
+    font-size: 64px;
+}
+#menu {
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+/* Distance between Links */
+#menu a {
+    padding: 0px 5px 0px 5px;
+}
+/* Push Content away from top and center */
+#content {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0px 0px 0px;
+    max-width: 350px;
+}
+/* Push away from Content */
+#footer {
+    padding: 10px 0px 0px 0px;
+}
+@media (min-width: 500px) {
+    #content, #layout {
+    	width: 1000px;
+        max-width: 1000px;
+    }
 }
