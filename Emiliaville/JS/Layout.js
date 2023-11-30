@@ -1,27 +1,21 @@
-// Create Header
-function Header() {
+function Layout() {
+    // Create Header
     Header = document.createElement("header");
     Header.setAttribute("id", "layout");
     document.body.appendChild(Header);
-}
 
-// Create Menu
-function Menu() {
+    // Create Menu
     Menu = document.createElement("div");
     Menu.setAttribute("id", "menu");
     Header.appendChild(Menu);
-}
 
-// Create Title
-function Title() {
+    // Create Title
     Title = document.createElement("h1");
     Title.setAttribute("id", "menutitle");
     Title.innerHTML = "Pinkulani";
     Menu.appendChild(Title);
-}
 
-// Create Links
-function Links() {
+    // Create Links
     Navigation = document.createElement("nav");
     Menu.appendChild(Navigation);
     
@@ -41,10 +35,8 @@ function Links() {
     
     LineTop = document.createElement("hr");  
     Header.appendChild(LineTop);
-}
 
-// Create Content Section
-function Main() {
+    // Create Content Section
     Main = document.createElement("main");
     Main.setAttribute("id", "content");
     document.body.appendChild(Main);
@@ -53,10 +45,8 @@ function Main() {
     Page = document.createElement("div");
     Page.setAttribute("id", "page");
     Main.appendChild(Page);
-}
 
-// Append Footer to Main for proper alignment
-function Footer() {
+    // Append Footer to Main for proper alignment
     Footer = document.createElement("footer");
     Footer.setAttribute("id", "footer");
     
@@ -68,15 +58,6 @@ function Footer() {
     Main.append(Footer);
     Footer.appendChild(LineBottom);
     Footer.append(Lemon);
-}
-
-function Layout() {
-    Header();
-    Menu();
-    Title();
-    Links();
-    Main();
-    Footer();
 }
 
 // Load automatically
