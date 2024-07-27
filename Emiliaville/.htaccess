@@ -1,9 +1,0 @@
-RewriteEngine On
-
-# Force HTTPS
-RewriteCond %{HTTP_HOST} !^www\.(.*)$ [OR,NC]
-RewriteCond %{https} off  
-RewriteRule ^(.*)$ https://www.pinkulani.com/$1 [R=301,L]
-
-# Page not found redirect
-ErrorDocument 404 https://www.pinkulani.com/404
