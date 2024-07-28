@@ -1,6 +1,10 @@
 /* General */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 * {
     padding: 0px; margin: 0px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-style: normal;
 }
 body {
     background-image: url("https://www.pinkulani.com/Media/Background.png");
@@ -8,9 +12,19 @@ body {
     background-repeat: repeat;
     background-position: center;
 }
+a {
+    text-decoration: None;
+    color: rgb(247, 88, 207);
+    transition: 1s linear;
+}
+a:hover {
+    color: rgb(70, 4, 100);
+    transition: 0.5s linear;
+}
 
 /* Layout */
 .box {
+    min-width: 200px;
     width: fit-content;
     transition: 1s linear;
     border-radius: 10px;
@@ -30,4 +44,7 @@ body {
 /* Formatting */
 .center {
     text-align: center;
+}
+.bold {
+    font-weight: bold;
 }
